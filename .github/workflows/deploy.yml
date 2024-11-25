@@ -17,7 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Publish .NET Project
-        run: dotnet publish ProjectTimeTracker.csproj -c Release -o release --nologo
+        run: dotnet publish ProjectTimeTracker/ProjectTimeTracker.csproj -c Release -o release --nologo
 
       # Changes the base-tag in index.html from '/' to '/ProjectTimeTracker' to match GitHub Pages repository subdirectory
       - name: Change base-tag in index.html
