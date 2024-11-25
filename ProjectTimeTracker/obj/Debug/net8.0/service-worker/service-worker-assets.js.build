@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "V3XvdNAb",
+  "version": "8znYt9x6",
   "assets": [
     {
       "hash": "sha256-W1OqRV83imd3SG/v4PAlCa5m/3RA9n5ysXT7G46jKKc=",
@@ -110,11 +110,11 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.Win32.Registry.wasm"
     },
     {
-      "hash": "sha256-XO50VU9ftzOfiDY7zzIescCMT81AM74A/QBXZfzB8Wc=",
+      "hash": "sha256-ahz+URexQpVUdr7o5mP06YECHD4zjf0TuGkqw0iyDjA=",
       "url": "_framework/ProjectTimeTracker.pdb"
     },
     {
-      "hash": "sha256-h1/EJlQV7sU0wVG72Tc1GyYzqqJF2w8cjSjX7GYN++c=",
+      "hash": "sha256-BY1YiVwAqO/rTDYvGGSMyF3eKy5xLf7k/RynoReQhs4=",
       "url": "_framework/ProjectTimeTracker.wasm"
     },
     {
@@ -766,7 +766,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-WayTzd3Fj0MrWNvOm7VmncXWL0TlZmWenmJ+YcomChc=",
+      "hash": "sha256-42AFHikZaObVpJxruPoBgY5lki/7Vxs6VJ2z3vSqWjM=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -834,7 +834,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-gYghV89jEWplHnNQG/4FCYc0j36/OLFgoNUAAhBguJg=",
+      "hash": "sha256-QDB9x/L+9wzEMU1JvuTS7txQalJrQDa6yWTE9MWOqbs=",
       "url": "index.html"
     },
     {
