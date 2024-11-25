@@ -1021,9 +1021,6 @@ C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\p4l7w6f2r0-tptq2av103.gz
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\c0su3h3gh6-lfu7j35m59.gz
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\k4mi83exv9-oyz0vx2fzb.gz
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\ybxvm6rhtd-8db099td9g.gz
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\murvbhnrum-63sungelb5.gz
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\al5tli2cw3-opftbfjn9a.gz
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1039,3 +1036,6 @@ C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\refint\ProjectTimeTracker.dll
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\ProjectTimeTracker.pdb
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\ref\ProjectTimeTracker.dll
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\ybxvm6rhtd-r7zdwbwde6.gz
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\murvbhnrum-gts3tg2fnj.gz
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\al5tli2cw3-90prt6a9qa.gz

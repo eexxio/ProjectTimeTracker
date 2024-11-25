@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "Qb0dR/Tf",
+  "version": "V3XvdNAb",
   "assets": [
     {
       "hash": "sha256-W1OqRV83imd3SG/v4PAlCa5m/3RA9n5ysXT7G46jKKc=",
@@ -110,11 +110,11 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.Win32.Registry.wasm"
     },
     {
-      "hash": "sha256-Tj+VV5HaDwXkrNj1Ydj8nBmZoZY/tGSKgWE2XLGXt98=",
+      "hash": "sha256-XO50VU9ftzOfiDY7zzIescCMT81AM74A/QBXZfzB8Wc=",
       "url": "_framework/ProjectTimeTracker.pdb"
     },
     {
-      "hash": "sha256-jLbdIL97a3pUAp4NQpo9RIugfSlY6bjLA91E/laTPzw=",
+      "hash": "sha256-h1/EJlQV7sU0wVG72Tc1GyYzqqJF2w8cjSjX7GYN++c=",
       "url": "_framework/ProjectTimeTracker.wasm"
     },
     {
@@ -766,7 +766,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-NJTqpYs4f3HU04uxtO2iK0xSchJ1T5wYEOIrQ1CgEGY=",
+      "hash": "sha256-WayTzd3Fj0MrWNvOm7VmncXWL0TlZmWenmJ+YcomChc=",
       "url": "_framework/blazor.boot.json"
     },
     {

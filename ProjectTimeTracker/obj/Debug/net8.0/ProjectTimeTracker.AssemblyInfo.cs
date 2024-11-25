@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTimeTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59ce20b12239e8328cd5908bdbf0b5b81fe1200b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d72fa1009a443acf7e9d33e620cd79d9152b622b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTimeTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTimeTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
