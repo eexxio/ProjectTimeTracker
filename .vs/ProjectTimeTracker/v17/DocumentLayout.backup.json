@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|c:\\users\\tudor\\documents\\github\\projecttimetracker\\projecttimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACF6124-F73B-4305-B5B0-5D6A33698F4E}|ProjectTimeTracker\\ProjectTimeTracker.csproj|solutionrelative:projecttimetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "ProjectTimeTracker\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "ProjectTimeTracker\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAzwIMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T18:33:32.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "ProjectTimeTracker\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\wwwroot\\index.html*",
-              "RelativeToolTip": "ProjectTimeTracker\\wwwroot\\index.html*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\wwwroot\\index.html",
+              "RelativeToolTip": "ProjectTimeTracker\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-25T18:23:23.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "ProjectTimeTracker\\Layout\\MainLayout.razor",
@@ -56,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\Program.cs",
               "RelativeDocumentMoniker": "ProjectTimeTracker\\Program.cs",
@@ -64,18 +81,17 @@
               "RelativeToolTip": "ProjectTimeTracker\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:23:15.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T18:23:15.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "ProjectTimeTracker\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\Pages\\Home.razor",
-              "RelativeToolTip": "ProjectTimeTracker\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tudor\\Documents\\GitHub\\ProjectTimeTracker\\ProjectTimeTracker\\Pages\\Home.razor*",
+              "RelativeToolTip": "ProjectTimeTracker\\Pages\\Home.razor*",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAuwKMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-25T18:23:03.299Z",
               "EditorCaption": ""

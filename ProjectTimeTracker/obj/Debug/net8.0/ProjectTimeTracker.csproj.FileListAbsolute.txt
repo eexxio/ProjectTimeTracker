@@ -1036,6 +1036,6 @@ C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\refint\ProjectTimeTracker.dll
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\ProjectTimeTracker.pdb
 C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\ref\ProjectTimeTracker.dll
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\ybxvm6rhtd-fnzura86lw.gz
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\murvbhnrum-eni0inb4xf.gz
-C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\al5tli2cw3-hbcv7mlawr.gz
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\ybxvm6rhtd-vw9j83phwq.gz
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\murvbhnrum-2zgvp8o56g.gz
+C:\Users\tudor\Documents\GitHub\ProjectTimeTracker\ProjectTimeTracker\obj\Debug\net8.0\compressed\al5tli2cw3-v1b6kykmy5.gz

@@ -1,7 +1,164 @@
 ﻿@page "/"
+@using System.Timers
+@implements IDisposable
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Project Time Tracker</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container mx-auto px-4 py-8 max-w-4xl">
+    <h1 class="text-4xl font-bold mb-8 text-purple-900">Project Time Tracker</h1>
 
-Welcome to your new app.
+    <div class="mb-8">
+        <div class="flex gap-3">
+            <input @bind="newProjectName"
+                   class="input-field rounded-xl px-4 py-3 flex-grow text-gray-700 text-lg"
+                   placeholder="Enter project name"
+                   @onkeyup="@(e => { if (e.Key == "Enter") AddProject(); })" />
+            <button @onclick="AddProject"
+                    class="btn bg-purple-600 text-white px-8 py-3 rounded-xl hover:bg-purple-700 text-lg disabled:opacity-50 font-medium"
+                    disabled="@string.IsNullOrWhiteSpace(newProjectName)">
+                Add Project
+            </button>
+        </div>
+    </div>
+
+    @if (!projects.Any())
+    {
+        <div class="bg-white rounded-xl p-8 text-center border-2 border-dashed border-purple-200">
+            <p class="text-purple-600 text-lg">No projects yet. Add your first project to start tracking time!</p>
+        </div>
+    }
+    else
+    {
+        <div class="grid gap-4">
+            @foreach (var project in projects)
+            {
+                <div class="project-card border rounded-xl p-6 bg-white border-purple-100">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="text-xl font-semibold text-purple-900">@project.Name</h2>
+                            <div class="mt-2 flex items-center">
+                                <span class="timer-display text-purple-800 text-lg">
+                                    @FormatTimeSpan(project.TotalTime)
+                                </span>
+                                @if (project.IsRunning)
+                                {
+                                    <span class="ml-2 text-purple-600 flex items-center">
+                                        <span class="inline-block w-2 h-2 rounded-full bg-purple-600 animate-pulse mr-1"></span>
+                                        Running
+                                    </span>
+                                }
+                            </div>
+                        </div>
+                        <div class="flex gap-3">
+                            @if (!project.IsRunning)
+                            {
+                                <button @onclick="() => StartTimer(project)"
+                                        class="btn bg-purple-600 text-white px-8 py-3 rounded-xl hover:bg-purple-700 text-lg shadow-sm">
+                                    Start
+                                </button>
+                            }
+                            else
+                            {
+                                <button @onclick="() => StopTimer(project)"
+                                        class="btn bg-purple-700 text-white px-8 py-3 rounded-xl hover:bg-purple-800 text-lg shadow-sm">
+                                    Stop
+                                </button>
+                            }
+                            <button @onclick="() => DeleteProject(project)"
+                                    class="btn bg-purple-100 text-purple-700 px-8 py-3 rounded-xl hover:bg-purple-200 text-lg shadow-sm">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                    @if (project.IsRunning)
+                    {
+                        <div class="mt-3 flex items-center">
+                            <span class="text-sm text-purple-600">
+                                Started at @project.StartTime?.ToLocalTime().ToString("HH:mm:ss")
+                            </span>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Project> projects = new();
+    private string newProjectName = string.Empty;
+    private Timer? timer;
+
+    protected override void OnInitialized()
+    {
+        timer = new Timer(1000);
+        timer.Elapsed += async (sender, e) => await UpdateRunningProjects();
+        timer.Start();
+    }
+
+    private async Task UpdateRunningProjects()
+    {
+        var runningProjects = projects.Where(p => p.IsRunning).ToList();
+
+        if (runningProjects.Any())
+        {
+            foreach (var project in runningProjects)
+            {
+                project.TotalTime = project.TotalTime.Add(TimeSpan.FromSeconds(1));
+            }
+            await InvokeAsync(StateHasChanged);
+        }
+    }
+
+    private void AddProject()
+    {
+        if (string.IsNullOrWhiteSpace(newProjectName)) return;
+
+        projects.Add(new Project
+            {
+                Name = newProjectName.Trim(),
+                TotalTime = TimeSpan.Zero
+            });
+
+        newProjectName = string.Empty;
+    }
+
+    private void StartTimer(Project project)
+    {
+        project.IsRunning = true;
+        project.StartTime = DateTime.Now;
+    }
+
+    private void StopTimer(Project project)
+    {
+        project.IsRunning = false;
+        project.StartTime = null;
+    }
+
+    private void DeleteProject(Project project)
+    {
+        if (project.IsRunning)
+        {
+            StopTimer(project);
+        }
+        projects.Remove(project);
+    }
+
+    private string FormatTimeSpan(TimeSpan timeSpan)
+    {
+        return $"{(int)timeSpan.TotalHours:D2}:{timeSpan.Minutes:D2}:{timeSpan.Seconds:D2}";
+    }
+
+    public void Dispose()
+    {
+        timer?.Dispose();
+    }
+
+    private class Project
+    {
+        public string Name { get; set; } = string.Empty;
+        public TimeSpan TotalTime { get; set; }
+        public bool IsRunning { get; set; }
+        public DateTime? StartTime { get; set; }
+    }
+}
