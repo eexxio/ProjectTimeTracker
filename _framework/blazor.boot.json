@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ProjectTimeTracker",
   "resources": {
-    "hash": "sha256-LCfRJ9bF9oqu7md7WFiYxiOQh/iJtCpXonCaMR1q14Q=",
+    "hash": "sha256-7oj+5vLdCE5UcPMinHXy1/SgDQ6bcTZeiRRmEX+ViLc=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -31,7 +31,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-r9dkR5134QvSR5zRWncgwA3QgGc2mbiRwhPteP2xbpk=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-2bohIT7/qEC9nPtjBrESwyddQ86eqIfABSFaK7lb55A=",
-      "ProjectTimeTracker.wasm": "sha256-3CfIJG3OkXJ0ZeAOlGx6Cmzg+Bcv5VJ0uz4Fh1HpNXw=",
+      "ProjectTimeTracker.wasm": "sha256-CvqEEJ8WsdwQdOynlxQdJFQtbjDgZKekHtuBiUw6ESI=",
       "System.Collections.Concurrent.wasm": "sha256-KIu0CYFvTS4vC+hMDEaJ7dJ378ocrJAOcMDBvsWCwZI=",
       "System.Collections.wasm": "sha256-xw28/Iw+yk5I5DO3u1XyulLtgEKNGKMM/RJ0CLlB9Uk=",
       "System.ComponentModel.wasm": "sha256-ZQumzHtMyxvojdF7oHBBb8pLXJYa4ErOf6oZOZey1OU=",
